@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background: black;
+    height: 643px;
+    width: 100%;
+}
+.box img{
+    height: 500px;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.box h1{
+    font-size: 60px;
+    margin-top: -28%;
+    color: rgba(110, 243, 93, 0.801);
+    margin-left: 15px;
+}
+.box p{
+    color: white;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 25%;
+}
+.box a{
+    font-size: 40px;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    color: white;
+    background: rgba(110, 243, 93, 0.801);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20%;
+}
+.social span i {
+    font-size: 30px;
+    margin: 15px;
+    cursor: pointer;
+    
+}
+.face span i{
+   
+    color: #3B5999;
+}
+.twitt span i{
+   
+    color: #46C1F6;
+}
+.inst span i{
+   
+    color: #e1306c;
+}
+.git span i{
+   
+    color: #333;
+}
+.face span i:hover,
+.twitt span i:hover,
+.inst span i:hover,
+.git span i:hover{
+    color: rgba(110, 243, 93, 0.801);
+    
+}
+.social{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 1000px) and (max-width:1070px) {
+    .box{
+        background: black;
+        width: 100%;
+        height: 100%;
+    }
+    .box img{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .box h1{
+        font-size: 30px;
+        margin-top: 15%;
+    }
+    .box p{
+        font-size: 15px;
+    }
+    .box a{
+        margin-left: 30%;
+    }
+}
